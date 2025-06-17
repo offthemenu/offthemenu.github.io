@@ -62,11 +62,14 @@ h5 {
   100% { opacity: 1; }
 }
 
-.period-mark {
+.pulsating-text {
   color: #0064FF;
   animation: pulse 2.5s infinite ease-in-out;
 }
 
+.period-mark {
+  color: #0064FF;
+}
 
 .big-paragraph {
     font-size: 1.1rem;
