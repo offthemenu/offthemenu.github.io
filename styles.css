@@ -1,0 +1,189 @@
+/* General styling */
+body {
+    font-family: 'Pretendard', sans-serif;
+    background-color: #ffffff;
+    color: #202632;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #202632;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid #0064FF;
+    padding-bottom: 5px;
+}
+
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.divider {
+    border-bottom: 1.5px solid #0064FF;
+    padding-bottom: 10px;
+    opacity: 10%;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  70% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+.period-mark {
+  color: #0064FF;
+  animation: pulse 2.5s infinite ease-in-out;
+}
+
+
+.big-paragraph {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+/* Row layouts */
+.row {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.row-left {
+    flex: 0 0 240px;
+}
+
+.row-right {
+    flex: 1;
+}
+
+.role {
+    font-weight: bold;
+    color: #555;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project:hover {
+    background-color: rgba(0, 100, 255, 0.03);
+    border-left: 4px solid #0064FF;
+    padding-left: 16px;
+    transition: all 0.2s ease;
+}
+
+.time {
+    font-style: italic;
+    color: #888;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Link styling */
+a {
+    color: #0064FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Other experiences */
+.other {
+    margin-bottom: 25px;
+}
+
+/* Contact section */
+section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section ul li {
+    margin-bottom: 8px;
+}
+
+/* Reveal */
+section.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+}
+
+section.show {
+    opacity: 1;
+    transform: none;
+}
+
+/* Media Handler */
+.media-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.media-gallery video,
+.media-gallery img {
+    width: 400px; /* ⬅️ Increase from 300–320px to 400px */
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.other h5 {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #202632;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row-left, .row-right {
+        flex: none;
+    }
+}
