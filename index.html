@@ -2,575 +2,548 @@
 <html lang="ko" class="scroll-smooth">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>장연우: Project Manager</title>
-    <meta name="theme-color" content="#3a7bd5">
-    <meta name="description" content="데이터기반 PM, 장연우의 이력서입니다.">
-    <meta property="og:url" content="http://127.0.0.1:5500/work/index.html">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="장연우: Project Manager">
-    <meta property="og:image" content="/resume/resume-cover.c8f03ded.png">
-    <meta property="og:description" content="데이터기반 PM, 장연우의 이력서입니다.">
-    <meta property="og:locale" content="ko_KR">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>장연우: Project Manager</title>
+  <meta name="theme-color" content="#3a7bd5">
+  <meta name="description" content="데이터기반 PM, 장연우의 이력서입니다.">
+  <meta property="og:url" content="http://127.0.0.1:5500/work/index.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="장연우: Project Manager">
+  <meta property="og:image" content="/resume/resume-cover.c8f03ded.png">
+  <meta property="og:description" content="데이터기반 PM, 장연우의 이력서입니다.">
+  <meta property="og:locale" content="ko_KR">
 
-    <!-- Fonts + Tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        pretendard: ["Pretendard", "sans-serif"],
-                    },
-                    colors: {
-                        primary: "#330662",
-                        grayText: "#202632",
-                    },
-                },
-            },
-        };
-    </script>
+  <!-- Fonts + Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            pretendard: ["Pretendard", "sans-serif"],
+          },
+          colors: {
+            primary: "#330662",
+            grayText: "#202632",
+          },
+        },
+      },
+    };
+  </script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
-    <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body class="bg-white text-grayText font-pretendard leading-relaxed">
-    <div class="max-w-5xl mx-auto px-6 py-12 space-y-24">
+  <div class="max-w-5xl mx-auto px-6 py-12 space-y-24">
 
-        <!-- 🧠 Intro Section -->
-        <section class="transition-all duration-700 ease-out opacity-0 translate-y-5" id="intro">
-            <h1 class="text-4xl sm:text-5xl font-bold mb-6 leading-snug sm:leading-tight">
-                반갑습니다,<br>
-                <span class="pulsating-text text-[#330662]">PM 장연우</span> 입니다<span class="period-mark">.</span>
-            </h1>
-            <p class="text-lg sm:text-lg leading-relaxed sm:leading-relaxed">
-                서울에서 4년차 데이터 기반 프로젝트 매니저로 활동하며 음악 프로듀서의 창의성을 바탕으로 실용적이고 명확한 솔루션을 제시해왔습니다.
-                특히 넷플릭스 현지화 프로젝트를 통해 데이터 분석 역량과 문제 해결 능력을 키웠으며, 현재는 개발 실무와 밀접한 기술 프로젝트를 주도하고 있습니다.
-                저는 기술의 가치는 명확한 비즈니스 문제 정의에서 비롯된다고 믿습니다. 주도적으로 문제를 파악하고 본질적인 해결책을 만들어내는 환경을 선호합니다.
+    <!-- 🧠 Intro Section -->
+    <section class="transition-all duration-700 ease-out opacity-0 translate-y-5" id="intro">
+      <h1 class="text-4xl sm:text-5xl font-bold mb-6 leading-snug sm:leading-tight">
+        반갑습니다,<br>
+        <span class="pulsating-text text-[#330662]">PM 장연우</span> 입니다<span class="period-mark">.</span>
+      </h1>
+      <p class="text-lg sm:text-xl leading-relaxed sm:leading-relaxed">
+        서울에서 4년차 데이터 기반 프로젝트 매니저로 활동하며 음악 프로듀서의 창의성을 바탕으로 실용적이고 명확한 솔루션을 제시해왔습니다.
+        특히 넷플릭스 현지화 프로젝트를 통해 데이터 분석 역량과 문제 해결 능력을 키웠으며, 현재는 개발 실무와 밀접한 기술 프로젝트를 주도하고 있습니다.
+        저는 기술의 가치는 명확한 비즈니스 문제 정의에서 비롯된다고 믿습니다. 주도적으로 문제를 파악하고 본질적인 해결책을 만들어내는 환경을 선호합니다.
+      </p>
+      <nav class="mt-8 pt-4">
+        <ul class="flex flex-wrap justify-left gap-9 text-sm sm:text-base text-gray-600 font-medium">
+          <li><a href="#education" class="hover:text-primary transition text-[#330662] ">Education</a></li>
+          <li><a href="#work" class="hover:text-primary transition text-[#330662] " >Work</a></li>
+          <li><a href="#projects" class="hover:text-primary transition text-[#330662] ">Projects</a></li>
+          <li><a href="#skills" class="hover:text-primary transition text-[#330662] ">Skills</a></li>
+          <li><a href="#contact" class="hover:text-primary transition text-[#330662] ">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+    <!-- 🎓 Education Section -->
+    <section class="transition-all duration-700 ease-out opacity-0 translate-y-5" id="education">
+      <h2 class="text-3xl font-semibold border-b-2 border-[#330662] pb-2 mb-6">
+        Education<span class="period-mark">.</span>
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-[minmax(180px,220px)_1fr] gap-6">
+        <!-- Left Column -->
+        <div>
+          <h3 class="text-xl font-bold">New York University</h3>
+          <span class="text-gray-600 font-medium leading-tight block">
+            Leonard N. Stern<br>School of Business
+          </span>
+        </div>
+
+        <!-- Right Column -->
+        <div class="space-y-3">
+          <div>
+            <h4 class="text-lg font-semibold">
+              경영학 학사 (B.S. in Business)<span class="period-mark">.</span>
+            </h4>
+            <span class="italic text-gray-500">
+              <time datetime="2025-05">2025. 05</time>
+            </span>
+          </div>
+
+          <div>
+            <h5 class="text-base font-bold mt-4">Concentration<span class="period-mark">.</span></h5>
+            <p>Finance & Business Analytics</p>
+          </div>
+
+          <div>
+            <h5 class="text-base font-bold mt-4">Fun Fact<span class="period-mark">.</span></h5>
+            <p>
+              2013년 최초 진학 후 한국에서의 음악 활동을 위해 잠정 휴학하였습니다. 이후 데이터 PM으로<br />
+              경력을 쌓은 뒤 실무 경험을 바탕으로 다시 미국으로 돌아가 2025년 학사 학위를 취득하였습니다.
             </p>
-            <nav class="mt-8 pt-4">
-                <ul class="flex flex-wrap gap-4 text-purple-600 font-medium text-sm">
-                    <li><a href="#education" class="hover:text-primary transition text-[#330662] hover:scale-105 pulsating-text">Education</a></li>
-                    <li><a href="#work" class="hover:text-primary transition text-[#330662] hover:scale-105 pulsating-text">Work</a></li>
-                    <li><a href="#projects" class="hover:text-primary transition text-[#330662] hover:scale-105 pulsating-text">Projects</a></li>
-                    <li><a href="#skills" class="hover:text-primary transition text-[#330662] hover:scale-105 pulsating-text">Skills</a></li>
-                    <li><a href="#contact" class="hover:text-primary transition text-[#330662] hover:scale-105 pulsating-text">Contact</a></li>
-                </ul>
-            </nav>
-        </section>
-        <!-- 🎓 Education Section -->
-        <section class="transition-all duration-700 ease-out opacity-0 translate-y-5" id="education">
-            <h2 class="text-3xl font-semibold border-b-2 border-[#330662] pb-2 mb-6">
-                Education<span class="period-mark">.</span>
-            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 💼 Work Experience Section -->
+    <section class="transition-all duration-700 ease-out opacity-0 translate-y-5" id="work">
+      <h2 class="text-3xl font-semibold border-b-2 border-[#330662] pb-2 mb-8">
+        Work Experience<span class="period-mark">.</span>
+      </h2>
 
-            <div class="grid grid-cols-1 md:grid-cols-[minmax(180px,220px)_1fr] gap-6">
-                <!-- Left Column -->
-                <div>
-                    <h3 class="text-xl font-bold">New York University</h3>
-                    <span class="text-gray-600 font-medium leading-tight block">
-                        Leonard N. Stern<br>School of Business
-                    </span>
-                </div>
+      <!-- Wavve Americas -->
+      <div class="grid grid-cols-1 md:grid-cols-[240px_1fr] gap-6 mb-12">
+        <!-- Left -->
+        <div>
+          <h3 class="text-xl font-bold">Wavve Americas<span class="period-mark">.</span></h3>
+          <span class="role block text-gray-600 font-medium">Technical PM</span>
+          <span class="text-sm italic text-gray-500 block mt-1">
+            <time datetime="2025-01">2025. 01</time> - 현재
+          </span>
+        </div>
 
-                <!-- Right Column -->
-                <div class="space-y-3">
-                    <div>
-                        <h4 class="text-lg font-semibold">
-                            경영학 학사 (B.S. in Business)<span class="period-mark">.</span>
-                        </h4>
-                        <span class="italic text-gray-500">
-                            <time datetime="2025-05">2025. 05</time>
-                        </span>
-                    </div>
-
-                    <div>
-                        <h5 class="text-base font-bold mt-4">Concentration<span class="period-mark">.</span></h5>
-                        <p>Finance & Business Analytics</p>
-                    </div>
-
-                    <div>
-                        <h5 class="text-base font-bold mt-4">Fun Fact<span class="period-mark">.</span></h5>
-                        <p>
-                            2013년 최초 진학 후 한국에서의 음악 활동을 위해 잠정 휴학하였습니다. 이후 데이터 PM으로<br />
-                            경력을 쌓은 뒤 실무 경험을 바탕으로 다시 미국으로 돌아가 2025년 학사 학위를 취득하였습니다.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- 💼 Work Experience Section -->
-        <section class="transition-all duration-700 ease-out opacity-0 translate-y-5" id="work">
-            <h2 class="text-3xl font-semibold border-b-2 border-[#330662] pb-2 mb-8">
-                Work Experience<span class="period-mark">.</span>
-            </h2>
-            <!-- Wavve Americas -->
-            <section class="transition-all duration-700 ease-out opacity-0 translate-y-5" id="work">
-                <div class="grid grid-cols-1 md:grid-cols-[240px_1fr] gap-6 mb-12">
-                    <!-- Left -->
-                    <div>
-                        <h3 class="text-xl font-bold">Wavve Americas<span class="period-mark">.</span></h3>
-                        <span class="role block text-gray-600 font-medium">Technical PM</span>
-                        <span class="text-sm italic text-gray-500 block mt-1">
-                            <time datetime="2025-01">2025. 01</time> - 현재
-                        </span>
-                    </div>
-
-                    <!-- Right -->
-                    <div class="space-y-10">
-                        <!-- Project 1 -->
-                        <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
-                            <h4 class="text-lg font-semibold">QC Request Form Generator<span
-                                    class="period-mark">.</span></h4>
-                            <span class="text-sm italic text-gray-500">
-                                <time datetime="2025-04">2025. 04</time> - 현재
-                            </span>
-                            <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
-                            <p>
-                                내부 개발팀이 외부 QA 벤더에게 테스트 요청을 보낼 때마다 발생하던 포맷 불일치 및 커뮤니케이션 오류를 해결하고자, TestRail 기반의 테스트 케이스
-                                데이터를 정제하여 표준화된 QC
-                                요청서를 생성하는 내부용 웹앱을 Streamlit으로 구축하고 유지 보수 중입니다.
-                            </p>
-                            <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
-                            <ul class="list-disc list-inside mt-2 space-y-1">
-                                <li>TestRail에서 추출한 약 300개 이상의 테스트 항목 데이터를 카테고리별로 정리 및 구조화</li>
-                                <li>Streamlit 기반 UI 설계 및 구현을 통해 누구나 요청서를 빠르게 생성할 수 있도록 가이드화</li>
-                                <li>외주 QA 벤더와의 요청 양식 일관성을 확보하여 오류율 70% 감소, 요청 작성 시간 90% 단축</li>
-                            </ul>
-                            <h5 class="font-bold mt-4">Tech Stack<span class="period-mark">.</span></h5>
-                            <p>Python (Streamlit, pandas), TestRail, Google Sheets</p>
-                        </div>
-
-                        <!-- Project 2 -->
-                        <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
-                            <h4 class="text-lg font-semibold">KOCOWA 4.0 UI/UX 전면 개편<span class="period-mark">.</span>
-                            </h4>
-                            <span class="text-sm italic text-gray-500">
-                                <time datetime="2025-01">2025. 01</time> - <time datetime="2025-06">2025. 06</time>
-                            </span>
-                            <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
-                            <p>
-                                글로벌 스트리밍 서비스 KOCOWA 4.0 전면 개편 프로젝트로, Web/Mobile/CTV 등 9개 디바이스의 UI/UX를 개선하고 EAA(European
-                                Accessibility Act)
-                                규정에 맞춘 접근성 기능을 새롭게 도입했습니다.
-                            </p>
-                            <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
-                            <ul class="list-disc list-inside mt-2 space-y-1">
-                                <li>디바이스별 빌드 일정 및 QA 피드백 사이클 통합 관리로 프로젝트 일정 안정화</li>
-                                <li>VoiceOver 기반 접근성 개선 기능 QA 체계 구축</li>
-                                <li>개인화 페이지, 콘텐츠 상세 페이지 탐색 흐름 등 UI/UX 디자인 고도화 QA 주도</li>
-                            </ul>
-                            <h5 class="font-bold mt-4">Tech Stack<span class="period-mark">.</span></h5>
-                            <p>Zeplin, TestRail, Jira, Confluence</p>
-                        </div>
-
-                        <!-- Project 3 -->
-                        <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
-                            <h4 class="text-lg font-semibold">Subscription & Billing Gateway Migration<span
-                                    class="period-mark">.</span>
-                            </h4>
-                            <span class="text-sm italic text-gray-500">
-                                <time datetime="2025-01">2025. 01</time> - <time datetime="2025-04">2025. 04</time>
-                            </span>
-                            <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
-                            <p>
-                                사내 Subscription Management System(SMS) 및 Billing Gateway 시스템 전환 프로젝트로, API 기반의 서비스 전환 및
-                                사용자 DB 마이그레이션 작업을
-                                관리하였습니다.
-                            </p>
-                            <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
-                            <ul class="list-disc list-inside mt-2 space-y-1">
-                                <li>개발-QA-운영 단계 간 기술 QA 일정 및 릴리즈 플랜 수립</li>
-                                <li>84,000+ 유저의 구독 데이터 마이그레이션 로직 기획 및 검증</li>
-                                <li>Recurly-Stripe 연동 구조 내 실패 케이스 대응 및 rollback 로직 설계</li>
-                                <li>서버 및 API 단 이슈에 대비한 리스크 맵 작성 및 전환 시나리오 수립</li>
-                            </ul>
-                            <h5 class="font-bold mt-4">Tech Stack<span class="period-mark">.</span></h5>
-                            <p>FastAPI, MySQL, Recurly, Stripe, Postman, Jira, Confluence</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- 🧪 GloZ Inc -->
-            <section class="transition-all duration-700 ease-out opacity-0 translate-y-5" id="work">
-                <div class="grid grid-cols-1 md:grid-cols-[240px_1fr] gap-6 mb-12">
-                    <!-- Left -->
-                    <div>
-                        <h3 class="text-xl font-bold">GloZ Inc<span class="period-mark">.</span></h3>
-                        <span class="role block text-gray-600 font-medium">Data PM</span>
-                        <span class="text-sm italic text-gray-500 block mt-1">
-                            <time datetime="2021-11">2021. 11</time> - <time datetime="2023-07">2023. 07</time>
-                        </span>
-                    </div>
-
-                    <!-- Right -->
-                    <div class="space-y-10">
-                        <!-- Project 1 -->
-                        <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
-                            <h4 class="text-lg font-semibold">SLA Coefficient: KPI 개선 프로젝트<span
-                                    class="period-mark">.</span></h4>
-                            <span class="text-sm italic text-gray-500">
-                                <time datetime="2023-01">2023. 01</time> - <time datetime="2023-06">2023. 06</time>
-                            </span>
-
-                            <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
-                            <p>
-                                기존 납기율(OTD%) 지표의 한계를 극복하고 일정 준수의 실질적 수준을 파악하기 위해,
-                                SLA 기반 예상 리드타임과 실제 업무일 간의 편차를 수치화한 SLA Coefficient 지표를 설계 · 도입한 프로젝트입니다.
-                            </p>
-
-                            <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
-                            <ul class="list-disc list-inside mt-2 space-y-1">
-                                <li>SLA 기준 리드타임을 기반으로 예상 TAT 계산 로직 설계 및 수식 모델링</li>
-                                <li>벤더 제출일 기준 실제 업무일 수 계산 및 SLA Coefficient 산출</li>
-                                <li>벤더별 평균 Multiplier 분석을 통해 일정 관리 역량 진단</li>
-                                <li>해당 지표 기반 벤더 추천 시스템을 내부 실험에 적용하고 결과 분석</li>
-                                <li>사내 발표 및 VP 대상 보고 자료 작성 및 발표 리딩</li>
-                            </ul>
-
-                            <h5 class="font-bold mt-4">Impact<span class="period-mark">.</span></h5>
-                            <ul class="list-disc list-inside mt-2 space-y-1">
-                                <li>벤더 재배정 및 일정 연장 요청 빈도 15% 감소 (DTT 팀 기준, 4주 적용 시점 분석)</li>
-                                <li>평균 일정 편차 1.2일 → 0.6일로 절반 감소 (벤더 추천 시스템 내 비교)</li>
-                            </ul>
-
-                            <h5 class="font-bold mt-4">Tech Stack<span class="period-mark">.</span></h5>
-                            <p>Python (pandas), Excel</p>
-                        </div>
-
-                        <!-- Project 2 -->
-                        <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
-                            <h4 class="text-lg font-semibold">Netflix DTT – 프리랜서 업무량 대시보드<span
-                                    class="period-mark">.</span></h4>
-                            <span class="text-sm italic text-gray-500">
-                                <time datetime="2022-02">2022. 02</time> - <time datetime="2022-06">2022. 06</time>
-                            </span>
-
-                            <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
-                            <p>
-                                GloZ Inc. 재직 당시 Netflix DTT 프로젝트 내 프리랜서 작업량 데이터를 분석 및 시각화하여,
-                                프로젝트 매니저들의 업무 배정 효율을 개선하는 대시보드를 기획하고 TF 조직과 함께 개발을 주도했습니다.
-                                Predictive Modeling 기반의 작업량 예측 시스템을 도입했습니다.
-                            </p>
-
-                            <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
-                            <ul class="list-disc list-inside mt-2 space-y-1">
-                                <li>프리랜서별 월별 작업량 분석 및 익월 예측 모델 설계</li>
-                                <li>Elasticsearch 기반 대시보드 설계 및 데이터 인터페이스 구조화</li>
-                                <li>직속 VP 및 CTO의 승인 하에 TF 구성 및 데이터 시각화 모델 운영</li>
-                            </ul>
-
-                            <h5 class="font-bold mt-4">Tech Stack<span class="period-mark">.</span></h5>
-                            <p>Python, Elasticsearch, Excel, Jupyter Notebook</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- 🌏 Knowmerce Inc -->
-            <section class="transition-all duration-700 ease-out opacity-0 translate-y-5" id="work">
-                <div class="grid grid-cols-1 md:grid-cols-[240px_1fr] gap-6 mb-12">
-                    <!-- Left -->
-                    <div>
-                        <h3 class="text-xl font-bold">Knowmerce Inc<span class="period-mark">.</span></h3>
-                        <span class="role block text-gray-600 font-medium">Localization PM</span>
-                        <span class="text-sm italic text-gray-500 block mt-1">
-                            <time datetime="2021-06">2021. 06</time> - <time datetime="2021-10">2021. 10</time>
-                        </span>
-                    </div>
-            
-                    <!-- Right -->
-                    <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
-                        <h4 class="text-lg font-semibold">Wonderwall Content Localization<span class="period-mark">.</span>
-                        </h4>
-                        <span class="text-sm italic text-gray-500">
-                            <time datetime="2021-06">2021. 06</time> - <time datetime="2021-10">2021. 10</time>
-                        </span>
-            
-                        <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
-                        <p>
-                            글로벌 예술 교육 콘텐츠 플랫폼 Wonderwall의 영어/일어 자막 현지화 및 콘텐츠 배포 일정 관리를 담당했습니다.
-                            마케팅 및 PR 자료의 언어별 현지화를 조율하여, 브랜드 메시지의 일관성과 해외 시장 적응력을 확보했습니다.
-                        </p>
-            
-                        <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
-                        <ul class="list-disc list-inside mt-2 space-y-1">
-                            <li>3개 언어의 콘텐츠 현지화 일정 조율</li>
-                            <li>자막 품질 및 번역 일관성 검수</li>
-                            <li>해외 마케팅 자료 번역 및 지역별 콘텐츠 배포 지원</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <!-- 🧪 Other Projects -->
-        <section class="transition-all duration-700 ease-out opacity-0 translate-y-5 mt-16 space-y-12" id="projects">
-            <h2 class="text-3xl font-semibold border-b-2 border-[#330662] pb-2 mb-6">
-                Other Projects<span class="period-mark">.</span>
-            </h2>
-
-            <!-- Quant Trading Bot -->
-            <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
-                <h3 class="text-xl font-semibold">Automated Quantitative Trading Bot<span class="period-mark">.</span>
-                </h3>
-                <span class="role text-gray-600 block">Quant Developer</span>
-                <span class="text-sm italic text-gray-500 block mt-1">
-                    <time datetime="2025-02">2025. 02</time> - 현재
-                </span>
-                <p class="mt-3">
-                    Python 기반의 자동 주식 매매 시스템을 설계 및 구축하였습니다. EMA, RSI, ATR, 거래량 이동평균을 활용한 신호 기반 전략을 구현하고,
-                    <strong>Interactive Brokers API</strong>와 연동하여 실시간 자동 주문 기능을 탑재했습니다.
-                    운영 단계는 <strong>시뮬레이션 / 스테이징 / 실거래</strong> 모드로 구성되며, 자체 백테스트 엔진을 통해 전략 검증 및 트레이드 성과 분석을 수행했습니다.
-                    포지션 관리, 트레일링 스탑, 일일 리스크 캡핑 등을 포함한 포트폴리오 보호 중심의 시스템 설계를 특징으로 합니다.
-                </p>
-            </div>
-
-            <!-- Poster Stormer -->
-            <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
-                <h3 class="text-xl font-semibold">Poster Stormer<span class="period-mark">.</span></h3>
-                <span class="role text-gray-600 block">Full-Stack Developer</span>
-                <span class="text-sm italic text-gray-500 block mt-1">
-                    <time datetime="2024-09">2024. 09</time> - <time datetime="2025-01">2025. 01</time>
-                </span>
-                <p class="mt-3">
-                    영화 시놉시스를 입력하면 AI가 유사 영화와 포스터 스타일을 참고하여 맞춤형 <strong>영화 포스터</strong>를 생성하는 웹 앱을 개발했습니다.
-                    프론트엔드는 <strong>React + Chakra UI</strong>, 백엔드는 <strong>FastAPI + MongoDB + FAISS</strong> 기반으로
-                    구축되었으며,
-                    <strong>문장 임베딩</strong>을 통해 유사 영화 검색, <strong>텍스트-투-이미지 프롬프트</strong> 생성을 수행합니다.
-                    GCP 및 Docker 기반 배포를 완료했으나, <strong>FAI API 및 GCP 운영비용 부담</strong>으로 공개 서비스는 현재 중단된 상태입니다.
-                </p>
-            </div>
-
-            <!-- Sentiment Model -->
-            <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
-                <h3 class="text-xl font-semibold">Sentiment-Aware Auction Pricing Model<span
-                        class="period-mark">.</span></h3>
-                <span class="role text-gray-600 block">Data Product Builder</span>
-                <span class="text-sm italic text-gray-500 block mt-1">
-                    <time datetime="2023-10">2023. 10</time> - <time datetime="2024-01">2024. 01</time>
-                </span>
-                <p class="mt-3">
-                    미술 경매 참여자를 위한 <strong>AI 기반 입찰 가격 추천 시스템</strong>을 개발했습니다.
-                    Artnet 작가 데이터를 기반으로 Reddit 감정 분석 <strong>(sentiment analysis)</strong>을 통해 시장 인식 점수를 산출하고,
-                    사용자 예산과 결합해 <strong>최적 입찰 전략</strong>을 제시하는 모델을 구현했습니다.
-                    주요 기술로는 <strong>BeautifulSoup, pandas, scikit-learn, VaderSentiment</strong>를 사용했습니다.
-                </p>
-            </div>
-
-            <!-- Music Producer -->
-            <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
-                <h3 class="text-xl font-semibold">Music Producer & Sound Designer<span class="period-mark">.</span></h3>
-                <span class="role text-gray-600 block">Creative Lead (2015 – 2023)</span>
-                <span class="text-sm italic text-gray-500 block mt-1">
-                    <time datetime="2015-01">2015. 01</time> - <time datetime="2023-10">2023. 10</time>
-                </span>
-                <p class="mt-3">
-                    7년간 상업 광고 및 아티스트 음반을 중심으로 활동한 음악 프로듀서 경력을 보유하고 있습니다.<br />
-                    Nike, FILA, SHESMISS 등 글로벌 브랜드 캠페인과 Sanchez (팬텀), off the menu (오프더메뉴) 등과 협업하며 다양한 사운드 연출을 수행했습니다.
-                </p>
-
-                <!-- 🎥 Fashion Campaigns -->
-                <h5 class="font-bold mt-4">🎥 Fashion Campaign<span class="period-mark">.</span></h5>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
-                    <figure>
-                        <video class="rounded shadow" controls>
-                            <source src="videos/Nike FOG.mp4" type="video/mp4" />
-                            <track src="videos/Nike_FOG_subtitles.vtt" kind="subtitles" srclang="en"
-                                label="English subtitles" default>
-                            Your browser does not support the video tag.
-                        </video>
-                        <figcaption class="text-sm text-gray-500 mt-1">Nike FOG 패션 캠페인 영상.</figcaption>
-                    </figure>
-                    <figure>
-                        <video class="rounded shadow" controls>
-                            <source src="videos/Shesmiss.mp4" type="video/mp4" />
-                            <track src="videos/Shesmiss_subtitles.vtt" kind="subtitles" srclang="en"
-                                label="English subtitles" default>
-                            Your browser does not support the video tag.
-                        </video>
-                        <figcaption class="text-sm text-gray-500 mt-1">Shesmiss 패션 캠페인 영상.</figcaption>
-                    </figure>
-                </div>
-
-                <!-- 🎧 Discography -->
-                <h5 class="font-bold mt-6">🎧 Discography<span class="period-mark">.</span></h5>
-                <div class="flex flex-wrap gap-6 mt-2">
-                    <a href="https://open.spotify.com/album/1ZmpZDCqmWlMFhnDxsfvfT" target="_blank"
-                        rel="noopener noreferrer">
-                        <img src="images/contact.jpg" alt="Album cover: Contact"
-                            class="w-[300px] md:w-[300px] rounded shadow" />
-                    </a>
-                    <a href="https://open.spotify.com/album/1pwjENcPz51c8nIqMlUy8L" target="_blank"
-                        rel="noopener noreferrer">
-                        <img src="images/epov.jpg" alt="Album cover: Every Point of View"
-                            class="w-[300px] md:w-[300px] rounded shadow" />
-                    </a>
-                    <a href="https://open.spotify.com/album/1qPB8d02aj5YbWjQjvk4Nh?si=_CrgZA6yTSuaNuUYMVRCbA"
-                        target="_blank" rel="noopener noreferrer">
-                        <img src="images/loveblue.jpg" alt="Album cover: Love is a Shade of Blue"
-                            class="w-[300px] md:w-[300px] rounded shadow" />
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- 🧠 Skills -->
-        <section class="transition-all duration-700 ease-out opacity-0 translate-y-5 mt-16 space-y-12" id="skills">
-            <h2 class="text-3xl font-semibold border-b-2 border-[#330662] pb-2 mb-6">
-                Skills<span class="period-mark">.</span>
-            </h2>
-
-            <!-- Overall -->
-            <div>
-                <h3 class="text-xl font-semibold">Overall<span class="period-mark">.</span></h3>
-                <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
-                    <li>문제 정의부터 KPI 설계, 제품 구현까지 단계를 연결하며 결과 중심으로 업무를 이끕니다.</li>
-                    <li>개발, 디자인, QA, 운영 등 다양한 팀과의 조율 경험이 많으며, 기술과 비즈니스 간의 교차점을 탐색합니다.</li>
-                    <li>비즈니스 목표를 중심으로 기술을 설계하고, 운영 및 품질까지 고려한 프로세스를 구축합니다.</li>
-                    <li>복잡한 문제도 직관적이고 단순한 솔루션으로 풀어내는 것을 지향합니다.</li>
-                </ul>
-            </div>
-
-            <!-- Communication -->
-            <div>
-                <h3 class="text-xl font-semibold">Communication & Collaboration<span class="period-mark">.</span></h3>
-                <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
-                    <li>미국 출신 원어민으로서 한국-글로벌 간의 커뮤니케이션 허브 역할을 자연스럽게 수행합니다.</li>
-                    <li>프로덕트 요구사항 정의, QA 브리핑, 벤더 가이드라인 작성 등 문서화와 설명 능력이 탁월합니다.</li>
-                    <li>지속적인 피드백 순환 구조를 만들고, 다양한 이해관계자와 일의 목적을 공유하며 협업합니다.</li>
-                    <li>다국적 외주사와의 협업 경험이 풍부하며, 업무 명세 자동화 등 커뮤니케이션 비용 절감에 기여했습니다.</li>
-                </ul>
-            </div>
-
-            <!-- PM -->
-            <div>
-                <h3 class="text-xl font-semibold">Project & Product Management<span class="period-mark">.</span></h3>
-                <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
-                    <li>프로젝트 일정, 품질, 예산을 통합적으로 고려하여 운영하며, 서비스 출시 후 운영 안정화까지 책임집니다.</li>
-                    <li>Netflix, Recurly, Stripe 등 외부 플랫폼과의 연동 및 운영 정책 대응 경험이 있습니다.</li>
-                    <li>QA 요청 자동화 툴, KPI 개선 지표 등 조직 내 반복 문제를 해결한 사례가 있습니다.</li>
-                    <li>Slack, Notion, Jira, Confluence 등 협업 툴에 익숙하며, 주간 스프린트 기반 애자일 업무 관리 경험이 있습니다.</li>
-                </ul>
-            </div>
-
-            <!-- Technical -->
-            <div>
-                <h3 class="text-xl font-semibold">Technical<span class="period-mark">.</span></h3>
-                <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
-                    <li>Python 기반 FastAPI로 Backend API를 개발하고, MySQL 및 MongoDB 등 다양한 DB 스키마 설계 경험이 있습니다.</li>
-                    <li>React Native (Expo), Next.js, Tailwind CSS 등 모던 프론트엔드 스택과 QR/메시지 기반 앱 구현 경험도 보유합니다.</li>
-                    <li>Plotly.js + Streamlit을 활용한 데이터 시각화 및 백테스트 도구 구현 경험이 있습니다.</li>
-                    <li>Docker+Google Cloud Run 기반의 기본적인 DevOps 구성도 가능합니다.</li>
-                </ul>
-            </div>
-
-            <!-- Data -->
-            <div>
-                <h3 class="text-xl font-semibold">Data Analysis & Experimentation<span class="period-mark">.</span></h3>
-                <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
-                    <li>Pandas, NumPy, SQL을 활용한 데이터 전처리 및 리포트 자동화 경험이 있습니다.</li>
-                    <li>단순 KPI보다 현실을 반영한 지표 설계를 통해 조직 내 개선을 주도했습니다.</li>
-                    <li>서비스 운영 데이터를 기반으로 백엔드 리스크 및 병목 구간을 식별하고, 일정 및 벤더 재조정에 필요한 인사이트를 도출한 경험이 있습니다.</li>
-                </ul>
-            </div>
-
-            <!-- Language -->
-            <div>
-                <h3 class="text-xl font-semibold">Language<span class="period-mark">.</span></h3>
-                <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
-                    <li>미국 원어민 수준의 영어 구사력을 바탕으로 글로벌 파트너와의 커뮤니케이션을 매끄럽게 이끕니다.</li>
-                    <li>기획서, 제품 명세서, QA 가이드 등 주요 문서를 영어와 한국어 이중 언어로 작성 가능합니다.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- 📫 Contact -->
-        <section class="transition-all duration-700 ease-out opacity-0 translate-y-5 mt-16" id="contact">
-            <h2 class="text-2xl font-bold mb-4">Contact<span class="period-mark">.</span></h2>
-            <ul class="flex flex-wrap gap-4 text-purple-600 font-medium text-lg">
-                <li class="hover:scale-105 transition-transform pulsating-text">
-                    <a href="mailto:personal.ianchang@gmail.com">Email</a>
-                </li>
-                <li class="hover:scale-105 transition-transform pulsating-text">
-                    <a href="https://medium.com/@personal.ianchang" target="_blank">Medium</a>
-                </li>
-                <li class="hover:scale-105 transition-transform pulsating-text">
-                    <a href="https://www.linkedin.com/in/iantickl/" target="_blank">LinkedIn</a>
-                </li>
-                <li class="hover:scale-105 transition-transform pulsating-text">
-                    <a href="https://github.com/offthemenu" target="_blank">GitHub</a>
-                </li>
+        <!-- Right -->
+        <div class="space-y-10">
+          <!-- Project 1 -->
+          <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
+            <h4 class="text-lg font-semibold">QC Request Form Generator<span class="period-mark">.</span></h4>
+            <span class="text-sm italic text-gray-500">
+              <time datetime="2025-04">2025. 04</time> - 현재
+            </span>
+            <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
+            <p>
+              내부 개발팀이 외부 QA 벤더에게 테스트 요청을 보낼 때마다 발생하던 포맷 불일치 및 커뮤니케이션 오류를 해결하고자, TestRail 기반의 테스트 케이스 데이터를 정제하여 표준화된 QC
+              요청서를 생성하는 내부용 웹앱을 Streamlit으로 구축하고 유지 보수 중입니다.
+            </p>
+            <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>TestRail에서 추출한 약 300개 이상의 테스트 항목 데이터를 카테고리별로 정리 및 구조화</li>
+              <li>Streamlit 기반 UI 설계 및 구현을 통해 누구나 요청서를 빠르게 생성할 수 있도록 가이드화</li>
+              <li>외주 QA 벤더와의 요청 양식 일관성을 확보하여 오류율 70% 감소, 요청 작성 시간 90% 단축</li>
             </ul>
-        </section>
+            <h5 class="font-bold mt-4">Tech Stack<span class="period-mark">.</span></h5>
+            <p>Python (Streamlit, pandas), TestRail, Google Sheets</p>
+          </div>
 
-        <!-- 🆙 Back to Top Button -->
-        <button id="backToTopBtn"
-            class="fixed bottom-6 right-6 z-50 p-3 bg-primary text-white rounded-full shadow-md hover:bg-blue-700 transition-opacity opacity-0 pointer-events-none"
-            aria-label="Back to Top">
-            ↑
-        </button>
+          <!-- Project 2 -->
+          <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
+            <h4 class="text-lg font-semibold">KOCOWA 4.0 UI/UX 전면 개편<span class="period-mark">.</span></h4>
+            <span class="text-sm italic text-gray-500">
+              <time datetime="2025-01">2025. 01</time> - <time datetime="2025-06">2025. 06</time>
+            </span>
+            <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
+            <p>
+              글로벌 스트리밍 서비스 KOCOWA 4.0 전면 개편 프로젝트로, Web/Mobile/CTV 등 9개 디바이스의 UI/UX를 개선하고 EAA(European Accessibility Act)
+              규정에 맞춘 접근성 기능을 새롭게 도입했습니다.
+            </p>
+            <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>디바이스별 빌드 일정 및 QA 피드백 사이클 통합 관리로 프로젝트 일정 안정화</li>
+              <li>VoiceOver 기반 접근성 개선 기능 QA 체계 구축</li>
+              <li>개인화 페이지, 콘텐츠 상세 페이지 탐색 흐름 등 UI/UX 디자인 고도화 QA 주도</li>
+            </ul>
+            <h5 class="font-bold mt-4">Tech Stack<span class="period-mark">.</span></h5>
+            <p>Zeplin, TestRail, Jira, Confluence</p>
+          </div>
 
-        <script>
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('show');
-                        entry.target.classList.remove('hidden');
-                    }
-                });
-            }, {
-                threshold: 0.1
-            });
+          <!-- Project 3 -->
+          <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
+            <h4 class="text-lg font-semibold">Subscription & Billing Gateway Migration<span class="period-mark">.</span>
+            </h4>
+            <span class="text-sm italic text-gray-500">
+              <time datetime="2025-01">2025. 01</time> - <time datetime="2025-04">2025. 04</time>
+            </span>
+            <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
+            <p>
+              사내 Subscription Management System(SMS) 및 Billing Gateway 시스템 전환 프로젝트로, API 기반의 서비스 전환 및 사용자 DB 마이그레이션 작업을
+              관리하였습니다.
+            </p>
+            <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>개발-QA-운영 단계 간 기술 QA 일정 및 릴리즈 플랜 수립</li>
+              <li>84,000+ 유저의 구독 데이터 마이그레이션 로직 기획 및 검증</li>
+              <li>Recurly-Stripe 연동 구조 내 실패 케이스 대응 및 rollback 로직 설계</li>
+              <li>서버 및 API 단 이슈에 대비한 리스크 맵 작성 및 전환 시나리오 수립</li>
+            </ul>
+            <h5 class="font-bold mt-4">Tech Stack<span class="period-mark">.</span></h5>
+            <p>FastAPI, MySQL, Recurly, Stripe, Postman, Jira, Confluence</p>
+          </div>
+        </div>
+      </div>
 
-            document.querySelectorAll('section').forEach((section) => {
-                observer.observe(section);
-            });
-        </script>
+      <!-- 🧪 GloZ Inc -->
+      <div class="grid grid-cols-1 md:grid-cols-[240px_1fr] gap-6 mb-12">
+        <!-- Left -->
+        <div>
+          <h3 class="text-xl font-bold">GloZ Inc<span class="period-mark">.</span></h3>
+          <span class="role block text-gray-600 font-medium">Data PM</span>
+          <span class="text-sm italic text-gray-500 block mt-1">
+            <time datetime="2021-11">2021. 11</time> - <time datetime="2023-07">2023. 07</time>
+          </span>
+        </div>
 
-        <!-- ✅ Add scroll-based active nav highlight here -->
-        <script>
-            const sections = document.querySelectorAll("section[id]");
-            const navLinks = document.querySelectorAll("nav a");
+        <!-- Right -->
+        <div class="space-y-10">
+          <!-- Project 1 -->
+          <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
+            <h4 class="text-lg font-semibold">SLA Coefficient: KPI 개선 프로젝트<span class="period-mark">.</span></h4>
+            <span class="text-sm italic text-gray-500">
+              <time datetime="2023-01">2023. 01</time> - <time datetime="2023-06">2023. 06</time>
+            </span>
 
-            window.addEventListener("scroll", () => {
-                let current = "";
-                sections.forEach((section) => {
-                    const sectionTop = section.offsetTop - 80;
-                    if (scrollY >= sectionTop) {
-                        current = section.getAttribute("id");
-                    }
-                });
+            <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
+            <p>
+              기존 납기율(OTD%) 지표의 한계를 극복하고 일정 준수의 실질적 수준을 파악하기 위해,
+              SLA 기반 예상 리드타임과 실제 업무일 간의 편차를 수치화한 SLA Coefficient 지표를 설계 · 도입한 프로젝트입니다.
+            </p>
 
-                navLinks.forEach((a) => {
-                    a.classList.remove("text-primary", "font-semibold");
-                    if (a.getAttribute("href") === `#${current}`) {
-                        a.classList.add("text-primary", "font-semibold");
-                    }
-                });
-            });
-        </script>
+            <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>SLA 기준 리드타임을 기반으로 예상 TAT 계산 로직 설계 및 수식 모델링</li>
+              <li>벤더 제출일 기준 실제 업무일 수 계산 및 SLA Coefficient 산출</li>
+              <li>벤더별 평균 Multiplier 분석을 통해 일정 관리 역량 진단</li>
+              <li>해당 지표 기반 벤더 추천 시스템을 내부 실험에 적용하고 결과 분석</li>
+              <li>사내 발표 및 VP 대상 보고 자료 작성 및 발표 리딩</li>
+            </ul>
 
-        <script>
-            const backToTopBtn = document.getElementById("backToTopBtn");
+            <h5 class="font-bold mt-4">Impact<span class="period-mark">.</span></h5>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>벤더 재배정 및 일정 연장 요청 빈도 15% 감소 (DTT 팀 기준, 4주 적용 시점 분석)</li>
+              <li>평균 일정 편차 1.2일 → 0.6일로 절반 감소 (벤더 추천 시스템 내 비교)</li>
+            </ul>
 
-            window.addEventListener("scroll", () => {
-                if (window.scrollY > 300) {
-                    backToTopBtn.classList.remove("opacity-0", "pointer-events-none");
-                } else {
-                    backToTopBtn.classList.add("opacity-0", "pointer-events-none");
-                }
-            });
+            <h5 class="font-bold mt-4">Tech Stack<span class="period-mark">.</span></h5>
+            <p>Python (pandas), Excel</p>
+          </div>
 
-            backToTopBtn.addEventListener("click", () => {
-                window.scrollTo({ top: 0, behavior: "smooth" });
-            });
-        </script>
+          <!-- Project 2 -->
+          <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
+            <h4 class="text-lg font-semibold">Netflix DTT – 프리랜서 업무량 대시보드<span class="period-mark">.</span></h4>
+            <span class="text-sm italic text-gray-500">
+              <time datetime="2022-02">2022. 02</time> - <time datetime="2022-06">2022. 06</time>
+            </span>
+
+            <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
+            <p>
+              GloZ Inc. 재직 당시 Netflix DTT 프로젝트 내 프리랜서 작업량 데이터를 분석 및 시각화하여,
+              프로젝트 매니저들의 업무 배정 효율을 개선하는 대시보드를 기획하고 TF 조직과 함께 개발을 주도했습니다.
+              Predictive Modeling 기반의 작업량 예측 시스템을 도입했습니다.
+            </p>
+
+            <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>프리랜서별 월별 작업량 분석 및 익월 예측 모델 설계</li>
+              <li>Elasticsearch 기반 대시보드 설계 및 데이터 인터페이스 구조화</li>
+              <li>직속 VP 및 CTO의 승인 하에 TF 구성 및 데이터 시각화 모델 운영</li>
+            </ul>
+
+            <h5 class="font-bold mt-4">Tech Stack<span class="period-mark">.</span></h5>
+            <p>Python, Elasticsearch, Excel, Jupyter Notebook</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🌏 Knowmerce Inc -->
+      <div class="grid grid-cols-1 md:grid-cols-[240px_1fr] gap-6 mb-12">
+        <!-- Left -->
+        <div>
+          <h3 class="text-xl font-bold">Knowmerce Inc<span class="period-mark">.</span></h3>
+          <span class="role block text-gray-600 font-medium">Localization PM</span>
+          <span class="text-sm italic text-gray-500 block mt-1">
+            <time datetime="2021-06">2021. 06</time> - <time datetime="2021-10">2021. 10</time>
+          </span>
+        </div>
+
+        <!-- Right -->
+        <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
+          <h4 class="text-lg font-semibold">Wonderwall Content Localization<span class="period-mark">.</span></h4>
+          <span class="text-sm italic text-gray-500">
+            <time datetime="2021-06">2021. 06</time> - <time datetime="2021-10">2021. 10</time>
+          </span>
+
+          <h5 class="font-bold mt-3">Description<span class="period-mark">.</span></h5>
+          <p>
+            글로벌 예술 교육 콘텐츠 플랫폼 Wonderwall의 영어/일어 자막 현지화 및 콘텐츠 배포 일정 관리를 담당했습니다.
+            마케팅 및 PR 자료의 언어별 현지화를 조율하여, 브랜드 메시지의 일관성과 해외 시장 적응력을 확보했습니다.
+          </p>
+
+          <h5 class="font-bold mt-4">What I Did<span class="period-mark">.</span></h5>
+          <ul class="list-disc list-inside mt-2 space-y-1">
+            <li>3개 언어의 콘텐츠 현지화 일정 조율</li>
+            <li>자막 품질 및 번역 일관성 검수</li>
+            <li>해외 마케팅 자료 번역 및 지역별 콘텐츠 배포 지원</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🧪 Other Projects -->
+    <section class="transition-all duration-700 ease-out opacity-0 translate-y-5 mt-16 space-y-12" id="projects">
+      <h2 class="text-3xl font-semibold border-b-2 border-[#330662] pb-2 mb-6">
+        Other Projects<span class="period-mark">.</span>
+      </h2>
+
+      <!-- Quant Trading Bot -->
+      <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
+        <h3 class="text-xl font-semibold">Automated Quantitative Trading Bot<span class="period-mark">.</span></h3>
+        <span class="role text-gray-600 block">Quant Developer</span>
+        <span class="text-sm italic text-gray-500 block mt-1">
+          <time datetime="2025-02">2025. 02</time> - 현재
+        </span>
+        <p class="mt-3">
+          Python 기반의 자동 주식 매매 시스템을 설계 및 구축하였습니다. EMA, RSI, ATR, 거래량 이동평균을 활용한 신호 기반 전략을 구현하고,
+          <strong>Interactive Brokers API</strong>와 연동하여 실시간 자동 주문 기능을 탑재했습니다.
+          운영 단계는 <strong>시뮬레이션 / 스테이징 / 실거래</strong> 모드로 구성되며, 자체 백테스트 엔진을 통해 전략 검증 및 트레이드 성과 분석을 수행했습니다.
+          포지션 관리, 트레일링 스탑, 일일 리스크 캡핑 등을 포함한 포트폴리오 보호 중심의 시스템 설계를 특징으로 합니다.
+        </p>
+      </div>
+
+      <!-- Poster Stormer -->
+      <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
+        <h3 class="text-xl font-semibold">Poster Stormer<span class="period-mark">.</span></h3>
+        <span class="role text-gray-600 block">Full-Stack Developer</span>
+        <span class="text-sm italic text-gray-500 block mt-1">
+          <time datetime="2024-09">2024. 09</time> - <time datetime="2025-01">2025. 01</time>
+        </span>
+        <p class="mt-3">
+          영화 시놉시스를 입력하면 AI가 유사 영화와 포스터 스타일을 참고하여 맞춤형 <strong>영화 포스터</strong>를 생성하는 웹 앱을 개발했습니다.
+          프론트엔드는 <strong>React + Chakra UI</strong>, 백엔드는 <strong>FastAPI + MongoDB + FAISS</strong> 기반으로 구축되었으며,
+          <strong>문장 임베딩</strong>을 통해 유사 영화 검색, <strong>텍스트-투-이미지 프롬프트</strong> 생성을 수행합니다.
+          GCP 및 Docker 기반 배포를 완료했으나, <strong>FAI API 및 GCP 운영비용 부담</strong>으로 공개 서비스는 현재 중단된 상태입니다.
+        </p>
+      </div>
+
+      <!-- Sentiment Model -->
+      <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
+        <h3 class="text-xl font-semibold">Sentiment-Aware Auction Pricing Model<span class="period-mark">.</span></h3>
+        <span class="role text-gray-600 block">Data Product Builder</span>
+        <span class="text-sm italic text-gray-500 block mt-1">
+          <time datetime="2023-10">2023. 10</time> - <time datetime="2024-01">2024. 01</time>
+        </span>
+        <p class="mt-3">
+          미술 경매 참여자를 위한 <strong>AI 기반 입찰 가격 추천 시스템</strong>을 개발했습니다.
+          Artnet 작가 데이터를 기반으로 Reddit 감정 분석 <strong>(sentiment analysis)</strong>을 통해 시장 인식 점수를 산출하고,
+          사용자 예산과 결합해 <strong>최적 입찰 전략</strong>을 제시하는 모델을 구현했습니다.
+          주요 기술로는 <strong>BeautifulSoup, pandas, scikit-learn, VaderSentiment</strong>를 사용했습니다.
+        </p>
+      </div>
+
+      <!-- Music Producer -->
+      <div class="border-l-4 border-[#330662] pl-4 hover:bg-blue-50/10 transition">
+        <h3 class="text-xl font-semibold">Music Producer & Sound Designer<span class="period-mark">.</span></h3>
+        <span class="role text-gray-600 block">Creative Lead (2015 – 2023)</span>
+        <span class="text-sm italic text-gray-500 block mt-1">
+          <time datetime="2015-01">2015. 01</time> - <time datetime="2023-10">2023. 10</time>
+        </span>
+        <p class="mt-3">
+          7년간 상업 광고 및 아티스트 음반을 중심으로 활동한 음악 프로듀서 경력을 보유하고 있습니다.<br />
+          Nike, FILA, SHESMISS 등 글로벌 브랜드 캠페인과 Sanchez (팬텀), off the menu (오프더메뉴) 등과 협업하며 다양한 사운드 연출을 수행했습니다.
+        </p>
+
+        <!-- 🎥 Fashion Campaigns -->
+        <h5 class="font-bold mt-4">🎥 Fashion Campaign<span class="period-mark">.</span></h5>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
+          <figure>
+            <video class="rounded shadow" controls>
+              <source src="videos/Nike FOG.mp4" type="video/mp4" />
+              <track src="videos/Nike_FOG_subtitles.vtt" kind="subtitles" srclang="en" label="English subtitles" default>
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="text-sm text-gray-500 mt-1">Nike FOG 패션 캠페인 영상.</figcaption>
+          </figure>
+          <figure>
+            <video class="rounded shadow" controls>
+              <source src="videos/Shesmiss.mp4" type="video/mp4" />
+              <track src="videos/Shesmiss_subtitles.vtt" kind="subtitles" srclang="en" label="English subtitles" default>
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="text-sm text-gray-500 mt-1">Shesmiss 패션 캠페인 영상.</figcaption>
+          </figure>
+        </div>
+
+        <!-- 🎧 Discography -->
+        <h5 class="font-bold mt-6">🎧 Discography<span class="period-mark">.</span></h5>
+        <div class="flex flex-wrap gap-6 mt-2">
+          <a href="https://open.spotify.com/album/1ZmpZDCqmWlMFhnDxsfvfT" target="_blank" rel="noopener noreferrer">
+            <img src="images/contact.jpg" alt="Album cover: Contact" class="w-[300px] md:w-[300px] rounded shadow" />
+          </a>
+          <a href="https://open.spotify.com/album/1pwjENcPz51c8nIqMlUy8L" target="_blank" rel="noopener noreferrer">
+            <img src="images/epov.jpg" alt="Album cover: Every Point of View"
+              class="w-[300px] md:w-[300px] rounded shadow" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🧠 Skills -->
+    <section class="transition-all duration-700 ease-out opacity-0 translate-y-5 mt-16 space-y-12" id="skills">
+      <h2 class="text-3xl font-semibold border-b-2 border-[#330662] pb-2 mb-6">
+        Skills<span class="period-mark">.</span>
+      </h2>
+
+      <!-- Overall -->
+      <div>
+        <h3 class="text-xl font-semibold">Overall<span class="period-mark">.</span></h3>
+        <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
+          <li>문제 정의부터 KPI 설계, 제품 구현까지 단계를 연결하며 결과 중심으로 업무를 이끕니다.</li>
+          <li>개발, 디자인, QA, 운영 등 다양한 팀과의 조율 경험이 많으며, 기술과 비즈니스 간의 교차점을 탐색합니다.</li>
+          <li>비즈니스 목표를 중심으로 기술을 설계하고, 운영 및 품질까지 고려한 프로세스를 구축합니다.</li>
+          <li>복잡한 문제도 직관적이고 단순한 솔루션으로 풀어내는 것을 지향합니다.</li>
+        </ul>
+      </div>
+
+      <!-- Communication -->
+      <div>
+        <h3 class="text-xl font-semibold">Communication & Collaboration<span class="period-mark">.</span></h3>
+        <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
+          <li>미국 출신 원어민으로서 한국-글로벌 간의 커뮤니케이션 허브 역할을 자연스럽게 수행합니다.</li>
+          <li>프로덕트 요구사항 정의, QA 브리핑, 벤더 가이드라인 작성 등 문서화와 설명 능력이 탁월합니다.</li>
+          <li>지속적인 피드백 순환 구조를 만들고, 다양한 이해관계자와 일의 목적을 공유하며 협업합니다.</li>
+          <li>다국적 외주사와의 협업 경험이 풍부하며, 업무 명세 자동화 등 커뮤니케이션 비용 절감에 기여했습니다.</li>
+        </ul>
+      </div>
+
+      <!-- PM -->
+      <div>
+        <h3 class="text-xl font-semibold">Project & Product Management<span class="period-mark">.</span></h3>
+        <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
+          <li>프로젝트 일정, 품질, 예산을 통합적으로 고려하여 운영하며, 서비스 출시 후 운영 안정화까지 책임집니다.</li>
+          <li>Netflix, Recurly, Stripe 등 외부 플랫폼과의 연동 및 운영 정책 대응 경험이 있습니다.</li>
+          <li>QA 요청 자동화 툴, KPI 개선 지표 등 조직 내 반복 문제를 해결한 사례가 있습니다.</li>
+          <li>Slack, Notion, Jira, Confluence 등 협업 툴에 익숙하며, 주간 스프린트 기반 애자일 업무 관리 경험이 있습니다.</li>
+        </ul>
+      </div>
+
+      <!-- Technical -->
+      <div>
+        <h3 class="text-xl font-semibold">Technical<span class="period-mark">.</span></h3>
+        <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
+          <li>Python 기반 FastAPI로 Backend API를 개발하고, MySQL 및 MongoDB 등 다양한 DB 스키마 설계 경험이 있습니다.</li>
+          <li>React Native (Expo), Next.js, Tailwind CSS 등 모던 프론트엔드 스택과 QR/메시지 기반 앱 구현 경험도 보유합니다.</li>
+          <li>Plotly.js + Streamlit을 활용한 데이터 시각화 및 백테스트 도구 구현 경험이 있습니다.</li>
+          <li>Docker+Google Cloud Run 기반의 기본적인 DevOps 구성도 가능합니다.</li>
+        </ul>
+      </div>
+
+      <!-- Data -->
+      <div>
+        <h3 class="text-xl font-semibold">Data Analysis & Experimentation<span class="period-mark">.</span></h3>
+        <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
+          <li>Pandas, NumPy, SQL을 활용한 데이터 전처리 및 리포트 자동화 경험이 있습니다.</li>
+          <li>단순 KPI보다 현실을 반영한 지표 설계를 통해 조직 내 개선을 주도했습니다.</li>
+          <li>서비스 운영 데이터를 기반으로 백엔드 리스크 및 병목 구간을 식별하고, 일정 및 벤더 재조정에 필요한 인사이트를 도출한 경험이 있습니다.</li>
+        </ul>
+      </div>
+
+      <!-- Language -->
+      <div>
+        <h3 class="text-xl font-semibold">Language<span class="period-mark">.</span></h3>
+        <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-700">
+          <li>미국 원어민 수준의 영어 구사력을 바탕으로 글로벌 파트너와의 커뮤니케이션을 매끄럽게 이끕니다.</li>
+          <li>기획서, 제품 명세서, QA 가이드 등 주요 문서를 영어와 한국어 이중 언어로 작성 가능합니다.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 📫 Contact -->
+    <section class="transition-all duration-700 ease-out opacity-0 translate-y-5 mt-16" id="contact">
+      <h2 class="text-2xl font-bold mb-4">Contact<span class="period-mark">.</span></h2>
+      <ul class="flex flex-wrap gap-4 text-purple-600 font-medium text-lg">
+        <li class="hover:scale-105 transition-transform pulsating-text">
+          <a href="mailto:personal.ianchang@gmail.com">Email</a>
+        </li>
+        <li class="hover:scale-105 transition-transform pulsating-text">
+          <a href="https://medium.com/@personal.ianchang" target="_blank">Medium</a>
+        </li>
+        <li class="hover:scale-105 transition-transform pulsating-text">
+          <a href="https://www.linkedin.com/in/iantickl/" target="_blank">LinkedIn</a>
+        </li>
+        <li class="hover:scale-105 transition-transform pulsating-text">
+          <a href="https://github.com/offthemenu" target="_blank">GitHub</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 🆙 Back to Top Button -->
+    <button id="backToTopBtn"
+      class="fixed bottom-6 right-6 z-50 p-3 bg-primary text-white rounded-full shadow-md hover:bg-blue-700 transition-opacity opacity-0 pointer-events-none"
+      aria-label="Back to Top">
+      ↑
+    </button>
+
+    <script>
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+            entry.target.classList.remove('hidden');
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+
+      document.querySelectorAll('section').forEach((section) => {
+        observer.observe(section);
+      });
+    </script>
+
+    <!-- ✅ Add scroll-based active nav highlight here -->
+    <script>
+      const sections = document.querySelectorAll("section[id]");
+      const navLinks = document.querySelectorAll("nav a");
+
+      window.addEventListener("scroll", () => {
+        let current = "";
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop - 80;
+          if (scrollY >= sectionTop) {
+            current = section.getAttribute("id");
+          }
+        });
+
+        navLinks.forEach((a) => {
+          a.classList.remove("text-primary", "font-semibold");
+          if (a.getAttribute("href") === `#${current}`) {
+            a.classList.add("text-primary", "font-semibold");
+          }
+        });
+      });
+    </script>
+
+    <script>
+      const backToTopBtn = document.getElementById("backToTopBtn");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          backToTopBtn.classList.remove("opacity-0", "pointer-events-none");
+        } else {
+          backToTopBtn.classList.add("opacity-0", "pointer-events-none");
+        }
+      });
+
+      backToTopBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
 
 
-    </div>
+  </div>
 </body>
-
 </html>
